@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            margin: 100px;
+            display: flex;
+            flex-direction: column;
+            width: 800px;
+            height: 600px;
+            border: 1px solid gray;
+        }
+        header{
+            border-bottom: 1px solid gray;
+            padding-left: 20px;
+        }
+        .content{
+            display: flex;
+            height: 350px;
+            text-align: center;
+        }
+        .content selection{
+            border-right: 1px solid gray;
+            flex-basis: 150px;
+        }
+        .content room{
+            flex-basis: 500px;
+        }
+        .content music{
+            border-left: 1px solid gray;
+            flex-basis: 150px;
+        }
+        visiter{
+            border-top: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>햇반의 미니홈피</h2>
+        </header>
+        <section class="content">
+            <selection>
+                <div class="category"><a href="minihome.html">홈</a></div>
+                <div class="category"><a href="picture.html">사진첩</a></div>
+                <div class="category">다이어리</div>
+            </selection>
+            <room>
+                미니홈피 룸 화면
+            </room>
+            <music>
+                음악재생바
+            </music>
+        </section>
+        <visiter>방명록</visiter>
+    </div>
+    </body>
+</body>
+</html>
